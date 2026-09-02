@@ -3,3 +3,5 @@ res://Scripts/World/WorldGrid.gd
 res://Scenes/Player/Player.tscn
 res://Scripts/Player/Player.gd
 res://Scenes/World/World.tscn
+res://Scripts/Player/joystick.gd
+res://Scripts/World/camerafollow.gd

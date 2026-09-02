@@ -1,2 +1,6 @@
+CollisionShape2D
+CharacterBody2D
 Node2D
+Control
+CanvasLayer
 Camera2D

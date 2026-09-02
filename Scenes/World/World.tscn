@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cmgllxxaskl47"]
+
+[ext_resource type="Script" uid="uid://chx87uky2wocu" path="res://Scripts/World/WorldGrid.gd" id="1_dphjl"]
+[ext_resource type="PackedScene" uid="uid://oshrmxx7kcof" path="res://Scenes/Player/Player.tscn" id="2_xf6vi"]
+
+[node name="World" type="Node2D" unique_id=697973229]
+
+[node name="Map" type="Node2D" parent="." unique_id=1843342282]
+script = ExtResource("1_dphjl")
+
+[node name="Entities" type="Node2D" parent="." unique_id=295353614]
+
+[node name="Players" type="Node2D" parent="." unique_id=2146367653]
+
+[node name="Player" parent="Players" unique_id=1510871320 instance=ExtResource("2_xf6vi")]
+
+[node name="Systems" type="Node2D" parent="." unique_id=1781225798]
+
+[node name="Zombies" type="Node2D" parent="." unique_id=629951135]
+
+[node name="Items" type="Node2D" parent="." unique_id=1642062115]
+
+[node name="Camera" type="Camera2D" parent="." unique_id=741395352]

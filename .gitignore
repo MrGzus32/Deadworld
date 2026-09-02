@@ -1,0 +1,32 @@
+# Godot 4 - archivos generados
+.godot/
+
+# Importaciones generadas por Godot
+*.import
+
+# Logs y archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Backups/editor temporales
+*.bak
+*~
+
+# Builds/exportaciones locales
+builds/
+exports/
+
+# Archivos de IDE/editor
+.vscode/
+.idea/
+
+# Claves y secretos - NUNCA subir
+.env
+.env.*
+*.key
+*.pem
